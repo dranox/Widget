@@ -4,7 +4,7 @@
 #include "szambe.hpp"
 #include "button.hpp"
 #include "textbox.hpp"
-#include "ASD.hpp"
+#include "slista.hpp"
 #include <fstream>
 #include <vector>
 
@@ -69,7 +69,7 @@ int main()
     Button * b1 = new Button(5,5,50,50,"Torles");
     Button * b2 = new Button(100,5,50,50,"Hozzáadásssssssss");
 
-    Kiv * k3= new Kiv(100,76,200,200,1);
+    Slista * k3= new Slista(100,76,200,200,1);
     Textbox * t1 = new Textbox(200,50,100,30);
 
 

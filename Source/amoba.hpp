@@ -3,7 +3,7 @@
 
 #include "graphics.hpp"
 #include "widgets.hpp"
-
+#include <string>
 
 class Amoba : public Widget
 {
@@ -14,7 +14,7 @@ class Amoba : public Widget
         Amoba(int x, int y, int sx, int sy);
         virtual void draw() const ;
         virtual void handle(genv::event ev);
-        virtual char getData();
+        virtual std::string getData();
         virtual void setTurn(const char &);
 };
 #endif // WIDGETS_HPP_INCLUDED

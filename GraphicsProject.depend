@@ -88,7 +88,7 @@
 	"widgets.hpp"
 	"graphics.hpp"
 
-1493723708 c:\users\marci\documents\c++\widget\widget\source\widgets.hpp
+1494675517 c:\users\marci\documents\c++\widget\widget\source\widgets.hpp
 	"graphics.hpp"
 
 1488260528 c:\users\marci\documents\c++\widget\widget\include\graphics.hpp
@@ -107,14 +107,14 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1493723704 source:c:\users\marci\documents\c++\widget\widget\source\main.cpp
+1494675770 source:c:\users\marci\documents\c++\widget\widget\source\main.cpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"kival.hpp"
 	"szambe.hpp"
 	"button.hpp"
 	"textbox.hpp"
-	"ASD.hpp"
+	"slista.hpp"
 	<fstream>
 	<vector>
 
@@ -148,12 +148,37 @@
 	<iostream>
 	<sstream>
 
-1493723708 source:c:\users\marci\documents\c++\widget\widget\source\widgets.cpp
+1494675818 source:c:\users\marci\documents\c++\widget\widget\source\widgets.cpp
 	"widgets.hpp"
 	"graphics.hpp"
 
 1494673570 source:c:\users\marci\documents\c++\widget\widget\source\asd.cpp
 	"ASD.hpp"
+	"graphics.hpp"
+	<string>
+	<iostream>
+	<sstream>
+
+1494675752 source:c:\users\marci\documents\c++\widget\widget\source\amoba.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"amoba.hpp"
+	<iostream>
+	<sstream>
+
+1494675579 c:\users\marci\documents\c++\widget\widget\source\amoba.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1494673570 c:\users\marci\documents\c++\widget\widget\source\slista.hpp
+	<vector>
+	<string>
+	"graphics.hpp"
+	"widgets.hpp"
+
+1494673710 source:c:\users\marci\documents\c++\widget\widget\source\slista.cpp
+	"Slista.hpp"
 	"graphics.hpp"
 	<string>
 	<iostream>
