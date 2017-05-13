@@ -1,0 +1,161 @@
+# depslib dependency file v1.0
+1493753026 source:c:\users\marci\downloads\widget_pelda\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"kival.hpp"
+	"szambe.hpp"
+	"button.hpp"
+	"textbox.hpp"
+	"ASD.hpp"
+	<fstream>
+	<vector>
+
+1488260528 c:\users\marci\downloads\graphicskezdokit\include\graphics.hpp
+	<string>
+
+1493752410 c:\users\marci\downloads\widget_pelda\widgets.hpp
+	"graphics.hpp"
+
+1492632565 c:\users\marci\downloads\widget_pelda\kival.hpp
+	<vector>
+	<string>
+	"graphics.hpp"
+	"widgets.hpp"
+
+1492632220 c:\users\marci\downloads\widget_pelda\szambe.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1492632220 source:c:\users\marci\downloads\widget_pelda\szambe.cpp
+	"szambe.hpp"
+	"graphics.hpp"
+	<string>
+	<iostream>
+	<sstream>
+
+1493752911 source:c:\users\marci\downloads\widget_pelda\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1492632565 source:c:\users\marci\downloads\widget_pelda\kival.cpp
+	"kival.hpp"
+	"graphics.hpp"
+	<string>
+	<iostream>
+	<sstream>
+
+1493754286 source:c:\users\marci\downloads\widget_pelda\asd.cpp
+	"ASD.hpp"
+	"graphics.hpp"
+	<string>
+	<iostream>
+	<sstream>
+
+1493751348 c:\users\marci\downloads\widget_pelda\asd.hpp
+	<vector>
+	<string>
+	"graphics.hpp"
+	"widgets.hpp"
+
+1493748371 source:c:\users\marci\downloads\widget_pelda\button.cpp
+	"button.hpp"
+	"widgets.hpp"
+	"graphics.hpp"
+
+1493748091 c:\users\marci\downloads\widget_pelda\button.hpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1493753026 c:\users\marci\downloads\widget_pelda\textbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"string"
+	"vector"
+
+1493752682 source:c:\users\marci\downloads\widget_pelda\textbox.cpp
+	"textbox.hpp"
+	"graphics.hpp"
+	<string>
+	<iostream>
+	<sstream>
+
+1493723704 source:c:\users\marci\documents\c++\widget\widget\source\button.cpp
+	"button.hpp"
+	"widgets.hpp"
+	"graphics.hpp"
+
+1493723704 c:\users\marci\documents\c++\widget\widget\source\button.hpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1493723708 c:\users\marci\documents\c++\widget\widget\source\widgets.hpp
+	"graphics.hpp"
+
+1488260528 c:\users\marci\documents\c++\widget\widget\include\graphics.hpp
+	<string>
+
+1493723704 source:c:\users\marci\documents\c++\widget\widget\source\kival.cpp
+	"kival.hpp"
+	"graphics.hpp"
+	<string>
+	<iostream>
+	<sstream>
+
+1493723704 c:\users\marci\documents\c++\widget\widget\source\kival.hpp
+	<vector>
+	<string>
+	"graphics.hpp"
+	"widgets.hpp"
+
+1493723704 source:c:\users\marci\documents\c++\widget\widget\source\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"kival.hpp"
+	"szambe.hpp"
+	"button.hpp"
+	"textbox.hpp"
+	"ASD.hpp"
+	<fstream>
+	<vector>
+
+1493723704 c:\users\marci\documents\c++\widget\widget\source\szambe.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1493723708 c:\users\marci\documents\c++\widget\widget\source\textbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"string"
+	"vector"
+
+1494673570 c:\users\marci\documents\c++\widget\widget\source\asd.hpp
+	<vector>
+	<string>
+	"graphics.hpp"
+	"widgets.hpp"
+
+1493723704 source:c:\users\marci\documents\c++\widget\widget\source\szambe.cpp
+	"szambe.hpp"
+	"graphics.hpp"
+	<string>
+	<iostream>
+	<sstream>
+
+1493723704 source:c:\users\marci\documents\c++\widget\widget\source\textbox.cpp
+	"textbox.hpp"
+	"graphics.hpp"
+	<string>
+	<iostream>
+	<sstream>
+
+1493723708 source:c:\users\marci\documents\c++\widget\widget\source\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1494673570 source:c:\users\marci\documents\c++\widget\widget\source\asd.cpp
+	"ASD.hpp"
+	"graphics.hpp"
+	<string>
+	<iostream>
+	<sstream>
+
