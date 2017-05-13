@@ -107,7 +107,7 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1494675770 source:c:\users\marci\documents\c++\widget\widget\source\main.cpp
+1494677683 source:c:\users\marci\documents\c++\widget\widget\source\main.cpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"kival.hpp"
@@ -115,6 +115,7 @@
 	"button.hpp"
 	"textbox.hpp"
 	"slista.hpp"
+	"amoba.hpp"
 	<fstream>
 	<vector>
 
