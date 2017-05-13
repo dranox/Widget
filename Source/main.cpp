@@ -18,6 +18,7 @@ void event_loop(std::vector<std::vector<Widget*> >& widgets,const int & rows, co
     int focusi = -1;
     int focusj = -1;
     char turn = 'X';
+    int k = 0;
 
     fstream f;
     f.open("Test", fstream::out );
@@ -56,8 +57,50 @@ void event_loop(std::vector<std::vector<Widget*> >& widgets,const int & rows, co
                 widgets[i][j]->draw();
             }
         }
+        for(int i=0; i<cols; i++)
+        {
+            for(int j=0; j<rows; j++)
+            {
+                if(widgets[i][j]->getData()!=" ")
+                {
+                    if(k<5)
+                    for(k=0;k<5 && i<rows-4;k++)
+                    {
+                        if(widgets[i+k][j]->getData()!=widgets[i][j]->getData())
+                        break;
+                    }
+                    if(k<5)
+                    for(k=0;k<5 && j<cols-4;k++)
+                    {
+                        if(widgets[i][j+k]->getData()!=widgets[i][j]->getData())
+                        break;
+                    }
+                    if(k<5)
+                    for(k=0;k<5 && i<rows-4 && j<cols-4;k++)
+                    {
+                        if(widgets[i+k][j+k]->getData()!=widgets[i][j]->getData())
+                        break;
+                    }
+                    if(k<5)
+                    for(k=0; k<5 && i<rows-4 && j>4;k++)
+                    {
+                        if(widgets[i+k][j-k]->getData()!=widgets[i][j]->getData())
+                        break;
+                    }
+                }
+            }
+        }
+        if(k>=4)break;
         gout << refresh;
     }
+    if(turn=='X')turn='O';
+    else turn='X';
+    gout<<color(0,0,0)<<move_to(10,10)<<box(50,20)<<color(255,0,0)<<move_to(10,25)<<text(turn)<<text(" wins")<<refresh;
+
+    while(gin >> ev )
+        {
+
+        }
 }
 
 
@@ -67,8 +110,8 @@ int main()
     vector<Widget*> w;
 
 
-    int rows = 10;
-    int cols = 5;
+    int rows = 20;
+    int cols = 20;
     std::vector<std::vector<Widget*> > matrix;
     matrix.resize(cols, std::vector<Widget*>(rows));
     for(int i=0; i<cols; i++)

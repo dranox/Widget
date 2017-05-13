@@ -40,17 +40,21 @@
 			<Add library="lib/libSDLmain.a" />
 			<Add directory="lib" />
 		</Linker>
-		<Unit filename="../widget_pelda/ASD.cpp" />
-		<Unit filename="../widget_pelda/ASD.hpp" />
-		<Unit filename="../widget_pelda/button.cpp" />
-		<Unit filename="../widget_pelda/button.hpp" />
-		<Unit filename="../widget_pelda/main.cpp" />
-		<Unit filename="../widget_pelda/szambe.cpp" />
-		<Unit filename="../widget_pelda/szambe.hpp" />
-		<Unit filename="../widget_pelda/textbox.cpp" />
-		<Unit filename="../widget_pelda/textbox.hpp" />
-		<Unit filename="../widget_pelda/widgets.cpp" />
-		<Unit filename="../widget_pelda/widgets.hpp" />
+		<Unit filename="Source/amoba.cpp" />
+		<Unit filename="Source/amoba.hpp" />
+		<Unit filename="Source/button.cpp" />
+		<Unit filename="Source/button.hpp" />
+		<Unit filename="Source/kival.cpp" />
+		<Unit filename="Source/kival.hpp" />
+		<Unit filename="Source/main.cpp" />
+		<Unit filename="Source/slista.cpp" />
+		<Unit filename="Source/slista.hpp" />
+		<Unit filename="Source/szambe.cpp" />
+		<Unit filename="Source/szambe.hpp" />
+		<Unit filename="Source/textbox.cpp" />
+		<Unit filename="Source/textbox.hpp" />
+		<Unit filename="Source/widgets.cpp" />
+		<Unit filename="Source/widgets.hpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
