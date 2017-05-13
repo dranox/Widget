@@ -88,7 +88,7 @@
 	"widgets.hpp"
 	"graphics.hpp"
 
-1494675517 c:\users\marci\documents\c++\widget\widget\source\widgets.hpp
+1494692810 c:\users\marci\documents\c++\widget\widget\source\widgets.hpp
 	"graphics.hpp"
 
 1488260528 c:\users\marci\documents\c++\widget\widget\include\graphics.hpp
@@ -107,7 +107,7 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1494680839 source:c:\users\marci\documents\c++\widget\widget\source\main.cpp
+1494693696 source:c:\users\marci\documents\c++\widget\widget\source\main.cpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"kival.hpp"
@@ -116,8 +116,10 @@
 	"textbox.hpp"
 	"slista.hpp"
 	"amoba.hpp"
-	<fstream>
+	<sstream>
 	<vector>
+	<cstdlib>
+	<ctime>
 
 1493723704 c:\users\marci\documents\c++\widget\widget\source\szambe.hpp
 	"graphics.hpp"
@@ -135,7 +137,7 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1493723704 source:c:\users\marci\documents\c++\widget\widget\source\szambe.cpp
+1494694060 source:c:\users\marci\documents\c++\widget\widget\source\szambe.cpp
 	"szambe.hpp"
 	"graphics.hpp"
 	<string>
@@ -149,7 +151,7 @@
 	<iostream>
 	<sstream>
 
-1494675818 source:c:\users\marci\documents\c++\widget\widget\source\widgets.cpp
+1494692816 source:c:\users\marci\documents\c++\widget\widget\source\widgets.cpp
 	"widgets.hpp"
 	"graphics.hpp"
 
@@ -160,14 +162,14 @@
 	<iostream>
 	<sstream>
 
-1494675752 source:c:\users\marci\documents\c++\widget\widget\source\amoba.cpp
+1494692595 source:c:\users\marci\documents\c++\widget\widget\source\amoba.cpp
 	"widgets.hpp"
 	"graphics.hpp"
 	"amoba.hpp"
 	<iostream>
 	<sstream>
 
-1494675579 c:\users\marci\documents\c++\widget\widget\source\amoba.hpp
+1494693911 c:\users\marci\documents\c++\widget\widget\source\amoba.hpp
 	"graphics.hpp"
 	"widgets.hpp"
 	<string>

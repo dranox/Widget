@@ -15,6 +15,7 @@ public:
     virtual void pushb(std::string);
     virtual void Remo();
     virtual std::string getData();
+    virtual void setData(const char &);
     virtual void setTurn(const char &);
 };
 

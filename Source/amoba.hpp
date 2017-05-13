@@ -16,5 +16,6 @@ class Amoba : public Widget
         virtual void handle(genv::event ev);
         virtual std::string getData();
         virtual void setTurn(const char &);
+        void setData(const char & c);
 };
 #endif // WIDGETS_HPP_INCLUDED

@@ -32,7 +32,7 @@ void Widget::Remo()
 {
 
 }
-
+void Widget::setData(const char &){}
 std::string Widget::getData(){}
 void Widget::setTurn(const char &){}
 

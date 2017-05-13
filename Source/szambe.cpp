@@ -50,12 +50,11 @@ void Szambe::handle(event ev)
             if(szam<min_)szam=min_;
         }
     }
-    if(ev.keycode==key_enter)
-    {
+
         stringstream ss;
         ss<< szam <<endl;
         throw ss.str(); //itt dobja a kivételt
-    }
+
 }
 int Szambe::select(int mouse_x, int mouse_y)
 {

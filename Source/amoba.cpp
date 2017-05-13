@@ -28,7 +28,9 @@ std::string Amoba::getData()
     ss << dolog;
     return ss.str();
 }
-
+void Amoba::setData(const char & c){
+    dolog = c;
+}
 void Amoba::setTurn(const char & kor)
 {
     pturn=kor;
