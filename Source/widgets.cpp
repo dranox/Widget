@@ -37,5 +37,7 @@ std::string Widget::getData()
 {
 
 }
+char Widget::getData(){}
+void Widget::setTurn(const char &){}
 
 
